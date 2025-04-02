@@ -1,31 +1,131 @@
 <!DOCTYPE html>
-<html lang="pt-BR">
+<html lang="pt-br">
 
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Matheus G Gomes</title>
-    <link rel="icon" href="img/favicon.png" type="image/png">
     <link rel="stylesheet" href="style.css">
+    <link rel="icon" type="image/png" href="imagens/favicon-32x32.png">
 </head>
 
 <body>
-    <div class="container">
-        <img src="img/img-perfil.jpg" alt="Foto de Perfil" class="foto-perfil">
-        <h1>Matheus Gonçalves Gomes</h1>
-        <p>Análise e Desenvolvimento de Sistemas | Atendimento ao Cliente</p>
-        <div class="icones">
-            <a href="https://github.com/matheusggomes" target="_blank">
-                <img alt="HTML" height="40" width="50" src="https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/github/github-original.svg">GitHub
-            </a>
-            <a href="https://linkedin.com/in/matheusggomes" target="_blank">
-                <img alt="HTML" height="40" width="50" src="https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/linkedin/linkedin-original.svg">LinkedIn
-            </a>
-            <a href="mailto:contatomatheusggomes@gmail.com">
-                <img alt="E-mail" height="40" width="50" src="https://raw.githubusercontent.com/feathericons/feather/master/icons/mail.svg">E-mail
-            </a>         
+    <header>
+        <div class="nome-menu">
+            <a href="https://matheusggomes.github.io">Matheus G Gomes</a>
         </div>
-    </div>
+
+        <div class="botao-menu" onclick="botaoMenu()">
+            &#9776;
+        </div>
+
+        <nav class="menu-links">
+            <a href="#inicio">Início</a>
+            <a href="#sobre">Sobre</a>
+            <a href="#projetos">Projetos</a>
+            <a href="#contato">Contato</a>
+        </nav>
+    </header>
+
+    <main>
+        <section id="inicio">
+            <img src="imagens/img-perfil.jpg" alt="Foto de Perfil" class="foto-perfil">
+            <h1>Matheus Gonçalves Gomes</h1>
+            <p>Análise e Desenvolvimento de Sistemas | Atendimento ao Cliente</p>
+
+            <div class="icones">
+                <a href="https://github.com/matheusggomes" target="_blank">
+                    <img alt="HTML" height="40" width="50"
+                        src="https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/github/github-original.svg">GitHub
+                </a>
+                <a href="https://linkedin.com/in/matheusggomes" target="_blank">
+                    <img alt="HTML" height="40" width="50"
+                        src="https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/linkedin/linkedin-original.svg">LinkedIn
+                </a>
+                <a href="mailto:contatomatheusggomes@gmail.com">
+                    <img alt="E-mail" height="40" width="50"
+                        src="https://raw.githubusercontent.com/feathericons/feather/master/icons/mail.svg">E-mail
+                </a>
+            </div>
+        </section>
+
+        <section id="sobre">
+            Sou formado em Análise e Desenvolvimento de Sistemas e possuo experiência em atendimento ao cliente, onde
+            desenvolvi habilidades importantes, como comunicação, trabalho em equipe e resolução de problemas. Além
+            disso, tenho formação técnica em informática, que, junto com minha graduação, me proporcionou uma base
+            sólida em tecnologia. Estou em busca de uma oportunidade onde possa contribuir com minhas habilidades e
+            adquirir novos conhecimentos.
+        </section>
+
+        <section id="projetos">
+            <h1>Projetos</h1>
+
+            <div class="projetos">
+
+                <div class="project">
+                    <h3>Disciplinas ADS</h3>
+                    <img src="imagens/disciplinas_ads.png" alt="Projeto 3" class="project-image">
+
+                    <p>Site que apresenta as disciplinas que cursei durante minha graduação em Análise e Desenvolvimento
+                        de Sistemas.</p>
+                    <a href="https://matheusggomes.github.io/disciplinas-ads" target="_blank" class="project-link">Ver
+                        mais</a>
+                </div>
+
+                <div class="project">
+                    <h3>Ctrl Fit</h3>
+                    <img src="imagens/ctrl_fit.png" alt="Projeto 2" class="project-image">
+
+                    <p>O projeto acadêmico Ctrl Fit é um sistema de gerenciamento de academia simples desenvolvido em
+                        Java. Seu principal objetivo é ser uma ferramenta útil para a gestão de alunos, pagamentos,
+                        treinos, planos e funcionários.</p>
+                    <a href="https://github.com/matheusggomes/CtrlFit" target="_blank" class="project-link">Ver mais</a>
+                </div>
+
+                <div class="project">
+                    <h3>Conversor Decimal</h3>
+                    <img src="imagens/conversor_decimal.png" alt="Projeto 1" class="project-image">
+                    <p>Projeto interdisciplinar desenvolvido em Python para conversão de números de base decimal para binário, octal e
+                        hexadecimal.</p>
+                    <a href="https://github.com/matheusggomes/ConversorDecimal" target="_blank" class="project-link">Ver mais</a>
+                </div>
+
+            </div>
+        </section>
+
+        <section id="contato">
+            <div class="contato">
+                <p>
+                    <a href="https://github.com/matheusggomes" target="_blank">
+                        <img class="icones-contato" alt="HTML"
+                            src="https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/github/github-original.svg"></a>github.com/matheusggomes
+                </p>
+
+                <p>
+                    <a href="https://linkedin.com/in/matheusggomes" target="_blank">
+                        <img class="icones-contato" alt="HTML"
+                            src="https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/linkedin/linkedin-original.svg"></a>linkedin.com/in/matheusggomes
+                </p>
+
+                <p>
+                    <a href="mailto:contatomatheusggomes@gmail.com">
+                        <img class="icones-contato" alt="E-mail"
+                            src="https://raw.githubusercontent.com/feathericons/feather/master/icons/mail.svg"></a>contatomatheusggomes@gmail.com
+                </p>
+
+            </div>
+        </section>
+    </main>
+
+    <footer>
+        <p>&copy; 2025 - Matheus Gonçalves Gomes</p>
+        <p>
+            <a href="https://www.linkedin.com/in/matheusggomes/" target="_blank">LinkedIn</a> |
+            <a href="https://github.com/matheusggomes" target="_blank">GitHub</a>
+        </p>
+    </footer>
+
+    <script src="script.js"></script>
 </body>
 
 </html>
